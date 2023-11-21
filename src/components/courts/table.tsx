@@ -29,7 +29,7 @@ export default function Table(props: TableProps){
                 <tr key={court.id}
                     className={`${i % 2 === 0 ? 'bg-indigo-200' : 'bg-indigo-100'} `}>
                     <td className="text-left p-3">{court.id}</td>
-                    <td className="text-left p-3">{court.descricao}</td>
+                    <td className="text-left p-3">{court.description}</td>
                     <td className="text-left p-3">{court.status}</td>
                     {exibirAcoes ? renderizarAcoes(court) : false }
                 </tr>

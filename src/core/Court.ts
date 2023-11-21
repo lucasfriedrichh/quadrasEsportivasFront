@@ -1,17 +1,21 @@
-export default class Evento {
+export default class Court {
     id: number | null;
-    descricao: string;
+    description: string;
     status: string;
 
-    constructor(id: number, descricao: string, status: string) {
+    constructor(id: number | null, description: string, status: string) {
         this.id = id;
-        this.descricao = descricao;
+        this.description = description;
         this.status = status;
     }
 
     static geraCourtMock() {
-        return [new Evento(1, "Quadra de Futebol", "AVAILABLE"),
-                new Evento(2, "Quadra de Basquete", "AVAILABLE")
+        return [new Court(1, "Quadra de Futebol", "AVAILABLE"),
+                new Court(2, "Quadra de Basquete", "AVAILABLE")
         ]
        }
+
+    static vazio(): Court {
+        return new Court(null, "", "");
+    }
 }
