@@ -1,7 +1,7 @@
 export default function Home() {
     return (
       <div>
-        <h2>Registros de quadras Esoprtivas</h2>
+        <h2>Registros de quadras Esportivas</h2>
       </div>
     )
   }
