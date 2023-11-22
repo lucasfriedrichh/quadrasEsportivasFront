@@ -1,7 +1,7 @@
 export default function Home() {
     return (
       <div>
-        <h2>Sistema de Eventos Inicio</h2>
+        <h2>Registros de quadras Esoprtivas</h2>
       </div>
     )
   }

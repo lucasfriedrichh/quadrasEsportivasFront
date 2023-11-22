@@ -47,7 +47,7 @@ export default function Courts() {
 
     async function alterarCourt(court: Court) {
         try {
-        const eventoAtualizado = await atualizarCourt(court);
+        const courtAtualizado = await atualizarCourt(court);
         setVisivel("tabela");
         } catch (error) {
         console.error("Erro ao atualizar quadra:", error);
@@ -74,7 +74,7 @@ export default function Courts() {
                 }
                 setCourts(prevCourts => prevCourts.filter(co => co.id !== court.id));
             } catch (error) {
-                console.error("Erro ao excluir evento:", error);
+                console.error("Erro ao excluir quadra:", error);
             }
         }
     }
