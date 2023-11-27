@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 
 interface EntradaSelectProps {
   texto: string;
-  valor: string | string[]; // Aceita uma única string ou um array de strings
-  opcoes: string[]; // Opções disponíveis
+  valor: string | string[];
+  opcoes: string[]; 
   onChange?: (valor: string | string[]) => void;
 }
 

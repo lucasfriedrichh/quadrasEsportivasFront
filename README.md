@@ -23,5 +23,9 @@ O Sports Court Booking App é uma aplicação React desenvolvida para facilitar 
 ## Configuração do Projeto
 
 1. **Clone o repositório:**
-1. **Instale as Dependencias:**
+
+2. **Instale as Dependencias:** 
+```bash
     npm install
+
+    npm run dev

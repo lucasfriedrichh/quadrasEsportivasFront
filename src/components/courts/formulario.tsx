@@ -35,7 +35,7 @@ export default function Formulario(
         <EntradaSelect
             texto="Status"
             valor={status}
-            opcoes={opcoes} // Certifique-se de passar a propriedade opcoes
+            opcoes={opcoes} 
             onChange={(newStatus) => setStatus(newStatus)}
             />
   
